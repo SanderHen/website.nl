@@ -17,11 +17,13 @@
     - emner
         - Om huset
         - Om parken
-        - Natur
+        - Natur 
         - Sykkel
         - By tur
         - Transport
         - Kontakt
+
+(transport fra Danmark til hus)
 
 // 4. Responsive Website
 

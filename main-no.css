@@ -52,6 +52,14 @@ body {
   text-transform: uppercase;
 }
 
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
 /* Portfolio styles */
 
 .portfolio-items-wrapper {
@@ -97,7 +105,7 @@ body {
 
 .img-text-wrapper:hover .subtitle {
     font-weight: 600;
-    color: lightseagreen;
+    color: orange;
 }
 
 .img-darken {

@@ -23,4 +23,7 @@
         - Transport
         - Kontakt
 
-// 4. Egne nettsider til hver grid
+// 4. Responsive Website
+
+// 5. Egne nettsider til hver grid
+

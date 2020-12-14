@@ -2,6 +2,7 @@
 body {
     font-family: "Open Sans", sans-serif;
     margin: 0px;
+    box-sizing: border-box;
 }
 
 .container {
@@ -101,12 +102,15 @@ body {
     transition: 1s;
     font-weight: 600;
     color: transparent;
+    text-align: center;
+    text-decoration: none;
 }
 
 .img-text-wrapper:hover .subtitle a {
     font-weight: 600;
     color: orange;
     text-decoration: none;
+    text-align: center;
 }
 
 .img-darken {

@@ -26,6 +26,8 @@
 (transport fra Danmark til hus)
 
 // 4. Responsive Website
+    - Media Query
+    - Mobile first 
 
 // 5. Egne nettsider til hver grid
 

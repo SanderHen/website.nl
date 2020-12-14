@@ -97,18 +97,19 @@ body {
     margin-bottom: 20px;
 }
 
-.img-text-wrapper .subtitle {
+.img-text-wrapper .subtitle a {
     transition: 1s;
     font-weight: 600;
     color: transparent;
 }
 
-.img-text-wrapper:hover .subtitle {
+.img-text-wrapper:hover .subtitle a {
     font-weight: 600;
     color: orange;
+    text-decoration: none;
 }
 
 .img-darken {
     transition: 1s;
-    filter: brightness(10%);
+    filter: brightness(20%);
 }

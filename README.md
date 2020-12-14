@@ -29,3 +29,5 @@
 
 // 5. Egne nettsider til hver grid
 
+// 6. Googe Analytics
+

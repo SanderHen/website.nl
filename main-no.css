@@ -111,7 +111,7 @@ body {
 .img-text-wrapper .subtitle a {
     transition: 1s;
     font-weight: 600;
-    color: burlywood;
+    color: transparent;
     text-align: center;
     text-decoration: none;
 }
@@ -124,7 +124,7 @@ body {
 }
 
 /* Styles for bigger devices */
-@media (min-width: 992px) {
+/*@media (min-width: 992px) {
     .img-text-wrapper .subtitle a {
     transition: 1s;
     font-weight: 600;
@@ -139,7 +139,7 @@ body {
     text-decoration: none;
     text-align: center;
     }
-}
+}*/
 
 .img-darken {
     transition: 1s;

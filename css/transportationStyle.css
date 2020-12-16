@@ -16,6 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 3.36%;
+    background-color: orange;
 }
 
 .right-side {
@@ -88,4 +89,12 @@ body {
 
 .bike a:hover {
     border-bottom: 1px solid transparent;
+}
+
+.bike img {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

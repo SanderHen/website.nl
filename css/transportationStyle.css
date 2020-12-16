@@ -60,3 +60,32 @@ body {
 .active-nav-link a {
     color: black !important;
 }
+
+/* Mainbody styles */
+
+.mainbody {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+}
+
+.info h1 {
+    text-align: center;
+}
+
+.info h2 {
+    text-align: center;
+}
+
+.bike a{
+    color: black;
+    text-decoration: none;
+}
+
+.bike a {
+    border-bottom: 1px solid black;
+    transition: border-bottom 0.5s;
+}
+
+.bike a:hover {
+    border-bottom: 1px solid transparent;
+}

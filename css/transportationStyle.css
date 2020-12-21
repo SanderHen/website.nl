@@ -16,7 +16,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 3.36%;
-    background-color: orange;
 }
 
 .right-side {
@@ -52,6 +51,11 @@ body {
 .left-side {
   cursor: pointer;
   text-transform: uppercase;
+}
+
+.brand a {
+    text-decoration: none;
+    color: black;
 }
 
 .active-nav-link {

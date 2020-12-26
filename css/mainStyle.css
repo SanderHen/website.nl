@@ -116,7 +116,7 @@ body {
     text-decoration: none;
 }
 
-.img-text-wrapper:hover .subtitle a {
+.portfolio-item-wrapper:hover .img-text-wrapper .subtitle a {
     font-weight: 600;
     color: orange;
     text-decoration: none;

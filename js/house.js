@@ -1,16 +1,24 @@
 function imageGallery() {
-    const highlight = document.querySelector(".gallery-hightlight");
-    const previews = document.querySelectorAll(".room-preview img");
-  
-    previews.forEach(preview => {
-      preview.addEventListener("click", function() {
-        const smallSrc = this.src;
-        const bigSrc = smallSrc.replace("small", "big");
-        previews.forEach(preview => preview.classList.remove("room-active"));
-        highlight.src = bigSrc;
-        preview.classList.add("room-active");
-      });
-    }); 
+  const carouselSlide = document.querySelector('.carousel-slide');
+  const carouselImages = document.querySelectorAll('.carousel-slide img');
+
+  //Buttons
+  const prevBtn = document.querySelector('#prevBtn');
+  const nextBtn = document.querySelector('#nextBtn');
+
+  //Counter
+  let counter = 1;
+  const size = carouselImages[0].clientWidth;
+
+  carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+
+  //Button Listeners
+
+  nextBtn.addEventListener('click',()=> {
+    carouselSlide.style.transition = "transform 0.4 ease-in-out";
+    counter++;
+    carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
+  });
 }
 
 imageGallery();

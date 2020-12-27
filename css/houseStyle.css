@@ -71,34 +71,20 @@ body {
     display: grid;
     grid-template-columns: 0.5fr 1fr 0.5fr;
 }
-.gallery {
+
+.carousel-container {
+    width: 60%;
+    margin: auto;
+    border: solid 5px black;
+}
+
+.carousel-slide {
     display: flex;
-}
-.gallery-highlight {
-    width: 100%;
-    height: 50vh;
-}
-
-.room-gallery {
     width: 50%;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 500px;
 }
 
-.room-preview {
-display: flex ;
-width: 80%;
-}
-
-.room-preview img {
-    height: 176px;
-    flex-grow: 1;
-    opacity: 0.6;
-    cursor: pointer;
-    transition: opacity 0.3s ease;
-}
-
-img.room-active {
-    opacity: 1;
+.carousel-slide {
+    height: 600px;
+    width: 100px;
 }

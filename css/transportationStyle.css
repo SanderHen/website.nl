@@ -102,3 +102,23 @@ body {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* Styles bottom nav*/
+.bottom-nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #3b302944;
+}
+
+.bottom-left-side {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    align-items: center;
+}
+
+.bottom-right-side {
+    display: flex;
+    flex-direction: column;
+}

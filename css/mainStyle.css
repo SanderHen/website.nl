@@ -61,6 +61,17 @@ body {
     color: black !important;
 }
 
+.burger {
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 2px;
+    background-color: black;
+    margin: 4px; 
+}
+
 /* Portfolio styles */
 
 /* Styles for smaller devices */

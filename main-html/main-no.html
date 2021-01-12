@@ -7,6 +7,7 @@
     <title>Home/no</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/mainStyle.css">
+    <script src="/js/main.js"></script>
 </head>
 
 <body>
@@ -33,6 +34,14 @@
                     <div class="line2"></div>
                     <div class="line3"></div>
                 </div>
+                <ul class="nav-link-burger">
+                    <li><a href="">Link nr.1</a></li>
+                    <li><a href="">Link nr.2</a></li>
+                    <li><a href="">Link nr.3</a></li>
+                    <li><a href="">Link nr.4</a></li>
+                    <li><a href="">Link nr.5</a></li>
+                    <li><a href="">Link nr.6</a></li>
+                </ul>
             </div>
 
         </div>
@@ -41,13 +50,13 @@
             <div class="portfolio-items-wrapper">
 
                 <div class="portfolio-item-wrapper">
-                    <div class="portfolio-img-background"
-                        style="background-image:url(/media/Wildryck/IMG_8712.JPG);"></div>
+                    <div class="portfolio-img-background" style="background-image:url(/media/Wildryck/IMG_8712.JPG);">
+                    </div>
 
                     <div class="img-text-wrapper">
                         <div class="logo-wrapper">
                         </div>
-                        
+
                         <div class="subtitle">
                             <a href="/house-html/house-no.html">Huset</a>
                         </div>
@@ -135,18 +144,9 @@
         </div>
 
     </div>
+    <script>
+        setup();
+    </script>
 </body>
-<script>
-    const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
-
-    portfolioItems.forEach(portfolioItem => {
-        portfolioItem.addEventListener('mouseover', () => {
-            portfolioItem.childNodes[1].classList.add('img-darken');
-        })
-        portfolioItem.addEventListener('mouseout', () => {
-            portfolioItem.childNodes[1].classList.remove('img-darken');
-        })
-    })
-</script>
 
 </html>

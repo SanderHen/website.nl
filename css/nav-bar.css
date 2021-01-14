@@ -1,0 +1,122 @@
+/* Nav styles */
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 3.36%;
+}
+
+.right-side {
+    display: flex;
+}
+
+.nav-wrapper > .right-side > div {
+    margin-right: 20px; /* Remove px */
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper {
+    height: 22px; /* Remove px */
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+    color: #8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover {
+    color: black;
+}
+
+.left-side {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.active-nav-link {
+    border-bottom: 1px solid black;
+}
+
+.active-nav-link a {
+    color: black !important;
+}
+
+.burger {
+    cursor: pointer;
+}
+
+.burger div {
+    width: 25px;
+    height: 2px;
+    background-color: #8a8a8a;
+    margin: 4px; 
+    transition:  all 0.3s ease;
+}
+
+.nav-link-burger {
+    position: fixed;
+    right: 0px;
+    height: 86%;
+    top: 12.6%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 30.55%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+    background-color: white;
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.nav-link-burger li {
+    list-style: none;
+    opacity: 0;
+}
+
+.nav-link-burger a {
+    color: #8a8a8a;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-burger a:hover {
+    border-bottom: 1px solid black;
+}
+
+.nav-link-burger-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+     from{
+        opacity: 0;
+        transform: translateX(50px);
+     }
+     to{
+        opacity: 1;
+        transform: translateX(0px);
+     }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg)  translate(-4px, 4px);
+    background-color: black;
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg)  translate(-5px, -4px);
+    background-color: black;
+}

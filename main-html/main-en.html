@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/mainStyle.css">
     <link rel="stylesheet" href="/css/nav-bar.css">
+    <script src="/js/main.js"></script>
+    <script src="/js/navbar.js"></script>
 </head>
 <body>
     <div class="container">
@@ -34,7 +36,7 @@
                     <div class="line3"></div>
                 </div>
                 <ul class="nav-link-burger">
-                    <li><a href="">Forside</a></li>
+                    <li><a id="active-nav-link" href="">Forside</a></li>
                     <li><a href="">Hus</a></li>
                     <li><a href="">Park</a></li>
                     <li><a href="">Natur</a></li>
@@ -46,5 +48,9 @@
 
         </div>
     </div>
+    <script>
+        setup();
+        navBar();
+    </script>
 </body>
 </html>

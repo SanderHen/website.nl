@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/houseStyle.css">
     <link rel="stylesheet" href="/css/nav-bar.css">
     <script src="/js/house.js"></script>
+    <script src="/js/navbar.js"></script>
 </head>
 
 <body>
@@ -16,21 +17,36 @@
         <div class="nav-wrapper">
             <div class="left-side">
                 <div class="brand">
-                    <div><a href="/main-html/main-no.html">Het Hertenspoor 105</a></div>
+                    <div> <a href="/main-html/main-no.html">Het Hertenspoor 105</a></div>
                 </div>
             </div>
 
             <div class="right-side">
                 <div class="nav-link-wrapper">
-                    <a href="main-en.html">en</a>
+                    <a href="/house-html/house-en.html">en</a>
                 </div>
                 <div class="nav-link-wrapper active-nav-link">
-                    <a href="main-no.html">no</a>
+                    <a href="/house-html/house-no.html">no</a>
                 </div>
                 <div class="nav-link-wrapper">
-                    <a href="main-nl.html">nl</a>
+                    <a href="/house-html/house-nl.html">nl</a>
                 </div>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-link-burger">
+                    <li><a href="">Forside</a></li>
+                    <li><a id="active-nav-link" href="">Hus</a></li>
+                    <li><a href="">Park</a></li>
+                    <li><a href="">Natur</a></li>
+                    <li><a href="">Byer</a></li>
+                    <li><a href="">Transport</a></li>
+                    <li><a href="">Kontakt oss</a></li>
+                </ul>
             </div>
+
         </div>
         <div class="mainbody">
             <div></div>
@@ -58,6 +74,7 @@
     </div>
     <script>
         imageGallery();
+        navBar();
     </script>
 </body>
 

@@ -50,8 +50,8 @@ body {
     position: absolute;
     top: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    /*flex-direction: row;*/
+    justify-content: space-around;
     align-items: center;
     height: 100%;
     /*padding-left: calc(100%/2.4);
@@ -67,7 +67,7 @@ body {
 .img-text-wrapper .subtitle a {
     transition: 1s;
     font-weight: 600;
-    color: orange;
+    color: transparent;
     text-align: center;
     text-decoration: none;
 }

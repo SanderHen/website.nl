@@ -1,9 +1,14 @@
 /* Nav styles */
 
+.container {
+    position: relative;
+}
+
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 3.36%;
+    padding: 40px;
+    z-index: 1;
 }
 
 .right-side {
@@ -64,8 +69,8 @@
 .nav-link-burger {
     position: fixed;
     right: 0px;
-    height: 86%;
-    top: 12.6%;
+    height: 100%;
+    top: 87px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -92,6 +97,7 @@
 
 .nav-link-burger a:hover {
     border-bottom: 1px solid black;
+    color: black;
 }
 
 .nav-link-burger-active {

@@ -1,4 +1,7 @@
 /* Nav styles */
+body {
+    font-family: "Open Sans", sans-serif;
+}
 
 .container {
     position: relative;
@@ -44,6 +47,11 @@
 .left-side {
   cursor: pointer;
   text-transform: uppercase;
+}
+
+.brand a {
+    text-decoration: none;
+    color: black;
 }
 
 .active-nav-link {

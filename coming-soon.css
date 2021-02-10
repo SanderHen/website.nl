@@ -24,9 +24,12 @@ img{
     opacity: 0.9;
 }
 
-h1 {
+#heading {
     position: absolute;
+    font-size: 400%;
+    font-weight: 600;
     text-transform: uppercase;
-    color: white;
-    border-bottom: solid 1px white;
+    color: rgb(238, 126, 34);
+    border-bottom: solid 3px rgb(238, 126, 34);
+    text-align: center;
 }

@@ -16,19 +16,19 @@ function imageGallery() {
   carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
 
   //Button Listeners
-  nextBtn.addEventListener('click',()=> {
+  nextBtn.addEventListener('click',() => {
     if (counter >= carouselImages.length - 1) return;
     // @ts-ignore
-    carouselSlide.style.transition = "transform 0.4 ease-in-out";
+    carouselSlide.style.transition = "transform 0.4s ease-in-out";
     counter++;
     // @ts-ignore
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
   });
 
-  prevBtn.addEventListener('click',()=> {
+  prevBtn.addEventListener('click',() => {
     if (counter <= 0) return;
     // @ts-ignore
-    carouselSlide.style.transition = "transform 0.4 ease-in-out";
+    carouselSlide.style.transition = "transform 0.4s ease-in-out";
     counter--;
     // @ts-ignore
     carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';

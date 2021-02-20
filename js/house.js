@@ -50,5 +50,4 @@ function imageGallery() {
       carouselSlide.style.transform = 'translateX(' + (-size * counter) + 'px)';
     }
   });
-
 }

@@ -48,6 +48,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    filter: brightness(90%);
 }
 
 .img-text-wrapper {
@@ -69,6 +70,7 @@ body {
 
 .fas {
     color: white;
+    font-size: x-large;
 }
 
 /* Styles for smaller devices */

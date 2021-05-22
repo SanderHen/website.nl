@@ -17,6 +17,7 @@ body {
 }
 
 
+
 /* Portfolio styles */
 
 /* Styles for smaller devices */
@@ -30,7 +31,6 @@ body {
     .portfolio-items-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
     }
 }
 

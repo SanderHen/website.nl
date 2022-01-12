@@ -24,8 +24,16 @@ body {
     grid-template-columns: 1fr;
 }
 
+/* Styles for medium devices */
+@media (min-width: 540px) {
+    .portfolio-items-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 /* Styles for bigger devices */
-@media (min-width: 992px) {
+@media (min-width: 1025px) {
     .portfolio-items-wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;

@@ -18,9 +18,10 @@ body{
 
 img{
     width: 100%;
-    background-position: center center;
+    background: center/cover no-repeat fixed;
+    /*background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     opacity: 0.9;
 }
 
@@ -30,7 +31,9 @@ img{
     font-size: 400%;
     font-weight: 600;
     text-transform: uppercase;
-    color: rgb(238, 126, 34);
-    border-bottom: solid 3px rgb(238, 126, 34);
+    color: white;
+    border-bottom: solid 3px white;
+    /*color: rgb(238, 126, 34);
+    border-bottom: solid 3px rgb(238, 126, 34);*/
     text-align: center;
 }
